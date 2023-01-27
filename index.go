@@ -15,8 +15,8 @@ func main() {
 	var tripTypeName = [2]string{"One-way", "Round-trip"}
 
 	fmt.Printf(
-		"%-16v %4v %2v %4v\n====================================\n",
-		"Spaceline", "Days", "Trip type",
+		"%-16v %4v %2v %4v\n=====================================\n",
+		"Spaceline", "Days", "Trip type", "Price",
 	)
 
 	for count := 0; count < 10; count++ {
